@@ -1,0 +1,67 @@
+// Section header area start here ***
+.section {
+	&-header {
+		h4 {
+			font-size: 16px;
+			font-family: var(--font-body);
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 1px;
+			color: var(--theme-color1);
+		}
+		h2 {
+			text-transform: capitalize;
+		}
+		p {
+			margin-top: 20px;
+		}
+		&__icon {
+			@extend .section-header;
+		}
+		&__flex {
+			@extend .section-header;
+			@include justify;
+			gap: 20px;
+			align-items: center;
+			@include breakpoint(max-lg) {
+				gap: 0;
+				flex-wrap: wrap;
+			}
+			h4 {
+				margin-bottom: 10px;
+			}
+			p {
+				max-width: 480px;
+			}
+		}
+	}
+	&-padding {
+		padding: 120px 0;
+	}
+	&-margin {
+		margin: 120px 0;
+	}
+}
+// Section header area end here ***
+
+//  area start here ***
+.rectangle {
+	&__item {
+		@include radius(70px, 70px, 70px);
+		border-radius: 0;
+		background-color: red;
+		width: 0;
+		&.animated {
+			width: 70px;
+		}
+		&-dark {
+			@extend .rectangle__item;
+			background-color: var(--black);
+			width: 0;
+			&.animated {
+				width: 70px;
+			}
+		}
+	}
+}
+//  area end here ***
