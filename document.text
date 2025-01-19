@@ -1,4 +1,6 @@
-Slider Effects
+Slider Effects area start here ***
+
+
 
 Fade
 
@@ -38,3 +40,58 @@ incube
 outcube
 premium-random
 premium-spiral
+
+
+
+
+Slider Effects area end here ***
+
+
+
+
+
+
+
+
+Text Effects area start here ***
+
+
+
+Entry Animation (from):
+
+Starts from the left (x:[-200%]).
+Fades in with opacity:0 to visible.
+Uses a bouncy easing: Elastic.easeOut.
+Exit Animation (frame:999):
+
+Moves to the right (x:[200%]).
+Fades out with opacity:0.
+Smooth exit easing: Power2.easeIn.
+Timing:
+
+Entry starts after 500ms (delay:500).
+Animation duration is 2000ms (speed:2000).
+Common Animations You Can Use:
+Slide In/Out
+
+x:[-100%] (from left), x:[100%] (to right).
+y:[-100%] (from top), y:[100%] (to bottom).
+Fade In/Out
+
+from:opacity:0;
+to:opacity:1;
+Scaling
+
+sX:1.5;sY:1.5; (scales up by 1.5x).
+sX:0.5;sY:0.5; (scales down to half).
+Rotation
+
+rX:90deg;rY:0;rZ:0; (rotate around X-axis).
+rZ:45deg; (rotate around Z-axis).
+Tips:
+Use the Slider Revolution Visual Editor for easy animation customization. It offers a drag-and-drop interface with live previews.
+Experiment with different easing functions like Bounce.easeOut, Power4.easeInOut, and Expo.easeIn.
+
+
+
+Text Effects area end here ***
