@@ -1,0 +1,40 @@
+Slider Effects
+
+Fade
+
+fade: Fading between slides.
+Sliding Directions
+
+slideleft
+slideright
+slideup
+slidedown
+Zoom Effects
+
+zoomin
+zoomout
+Parallax Effects
+
+parallaxtoleft
+parallaxtoright
+parallaxtotop
+parallaxtobottom
+Rotation Effects
+
+rotateslide
+rotatecarouselright
+rotatecarouselleft
+Special Effects
+
+cubic: Cube rotation.
+turnoff: Simulates turning off a screen.
+flyin: Makes slides fly in from various directions.
+boxslide: Box-based animation.
+slotslide-horizontal: Sliding with horizontal slots.
+slotslide-vertical: Sliding with vertical slots.
+Creative Effects
+
+incube
+outcube
+premium-random
+premium-spiral
